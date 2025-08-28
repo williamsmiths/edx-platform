@@ -4,7 +4,7 @@
 #
 #    make upgrade
 #
--e git+https://github.com/jazzband/django-pipeline.git@927ca9ad250d67402d2e32f64fd5a47cfb60f328#egg=django-pipeline
+git+https://github.com/jazzband/django-pipeline.git@927ca9ad250d67402d2e32f64fd5a47cfb60f328#egg=django-pipeline
     # via
     #   -r requirements/edx/doc.txt
     #   -r requirements/edx/testing.txt
