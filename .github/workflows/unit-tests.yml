@@ -21,7 +21,7 @@ jobs:
         python-version:
           - "3.11"
         django-version:
-          - "pinned"
+          - ["pinned", "5.2"]
         # When updating the shards, remember to make the same changes in
         # .github/workflows/unit-tests-gh-hosted.yml
         shard_name:
