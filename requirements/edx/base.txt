@@ -171,7 +171,6 @@ defusedxml==0.7.1
     #   social-auth-core
 django==5.2.5
     # via
-    #   -c requirements/edx/../constraints.txt
     #   -r requirements/edx/kernel.in
     #   django-appconf
     #   django-autocomplete-light
@@ -330,8 +329,7 @@ django-object-actions==5.0.0
     # via
     #   edx-enterprise
     #   enterprise-integrated-channels
--e git+https://github.com/jazzband/django-pipeline.git@master#egg=django-pipeline
-
+django-pipeline==4.0.0
     # via -r requirements/edx/kernel.in
 django-push-notifications==3.2.1
     # via edx-ace
